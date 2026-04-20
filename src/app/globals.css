@@ -21,3 +21,16 @@ body {
 .prose-news h2 {
   @apply mb-3 mt-8 text-2xl font-semibold text-zinc-900;
 }
+
+.prose-news h3 {
+  @apply mb-3 mt-8 text-xl font-semibold text-zinc-900;
+}
+
+.prose-news a {
+  @apply text-accent underline decoration-accent/40 underline-offset-4;
+}
+
+.prose-news ul,
+.prose-news ol {
+  @apply mb-6;
+}
